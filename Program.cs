@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace c_sharp_basics
 {
     class MainClass
@@ -50,6 +51,29 @@ namespace c_sharp_basics
             string songLyrics = "All I want for Christmas is you ";
             Console.WriteLine(songLyrics.Contains("Christmas"));
             Console.WriteLine(songLyrics.Contains("New Year"));
+
+
+
+            /*basic integer math*/
+
+            int a = 5;
+            int b = 6;
+            int c = a * b;
+
+            Console.WriteLine(c);
+
+            //same operators as c or java
+            //precedence like PEMDAS
+
+            int maxINT = int.MaxValue;
+            int minINT = int.MinValue;
+            Console.WriteLine($"The range of integers go from {minINT} to {maxINT}");
+
+            //overflow
+            int overflow = maxINT + 5;
+            Console.WriteLine($"This is how much the int will overflow when added 5: {overflow}");
+
+            //doubles contain floating points
 
         }
     }

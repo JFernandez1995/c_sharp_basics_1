@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c_sharp_basics", "c_sharp_basics.csproj", "{7C0E2AD7-B2DC-4732-8B44-D1BCF871C21D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C0E2AD7-B2DC-4732-8B44-D1BCF871C21D}.Debug|x86.ActiveCfg = Debug|x86
+		{7C0E2AD7-B2DC-4732-8B44-D1BCF871C21D}.Debug|x86.Build.0 = Debug|x86
+		{7C0E2AD7-B2DC-4732-8B44-D1BCF871C21D}.Release|x86.ActiveCfg = Release|x86
+		{7C0E2AD7-B2DC-4732-8B44-D1BCF871C21D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
