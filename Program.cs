@@ -1,5 +1,5 @@
 ﻿using System;
-
+using System.Collections.Generic;    //this namespace allows you to use lists
 
 namespace c_sharp_basics
 {
@@ -74,6 +74,26 @@ namespace c_sharp_basics
             Console.WriteLine($"This is how much the int will overflow when added 5: {overflow}");
 
             //doubles contain floating points
+
+
+            /*loops*/
+            for(int i = 1; i <= 10; i++)
+            {
+                Console.Write(i + " ");
+            }
+
+
+            /**/
+
+            var names = new List<string> { "Jessie", "Ana", "Felipe" }; //you can initialize a variable containing a list of strings
+            foreach (var name in names) //foreach name in the list
+            {
+                Console.WriteLine($"Hello {name.ToUpper()}!");  //print out the name
+            }
+
+
+
+
 
         }
     }
