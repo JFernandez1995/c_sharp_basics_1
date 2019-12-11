@@ -91,7 +91,15 @@ namespace c_sharp_basics
                 Console.WriteLine($"Hello {name.ToUpper()}!");  //print out the name
             }
 
+            //add more names
+            names.Add("Charles");
+            names.Add("Grace");
+            names.Add("Maria");
 
+            foreach (var name in names) //foreach name in the list
+            {
+                Console.WriteLine($"Hello {name.ToUpper()}!");  //print out the name
+            }
 
 
 
