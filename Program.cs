@@ -103,6 +103,35 @@ namespace c_sharp_basics
 
 
 
+            //refrencing list by index
+            Console.WriteLine($"{names[0]}.");
+            Console.WriteLine($"I've added {names[4]} and {names[5]} to the list.");
+
+            //count
+            Console.Write("There are " +names.Count + " people in this list" );
+
+            // you can have lists with different types
+            //fibonacci
+
+            var fibNums = new List<int> { 1, 1};
+
+
+
+            while (fibNums.Count < 20)
+            {
+                var previous = fibNums[fibNums.Count - 1];
+                var previous2 = fibNums[fibNums.Count - 2];
+
+                fibNums.Add(previous + previous2);
+
+            }
+
+            foreach (var item in fibNums)
+                Console.WriteLine(item);
+
+            //end fibonacci
+
+
         }
     }
 }
